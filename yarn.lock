@@ -1233,6 +1233,7 @@ __metadata:
     hardhat: ^2.12.3
     hardhat-gas-reporter: ^1.0.8
     mocha: ^10.1.0
+    random-words: ^1.2.0
     solidity-coverage: ^0.8.0
     ts-node: ">=8.0.0"
     typechain: ^8.1.0
@@ -5254,6 +5255,13 @@ __metadata:
   version: 1.2.3
   resolution: "queue-microtask@npm:1.2.3"
   checksum: b676f8c040cdc5b12723ad2f91414d267605b26419d5c821ff03befa817ddd10e238d22b25d604920340fd73efd8ba795465a0377c4adf45a4a41e4234e42dc4
+  languageName: node
+  linkType: hard
+
+"random-words@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "random-words@npm:1.2.0"
+  checksum: e2222057c963d49acc872c0b89c852a6de8a21c8114c102cf193f6a00ab78d346c6fdd2fe33222e30e1958ddb98bbe57fafc32aa2f69c3c13ca7425268f88798
   languageName: node
   linkType: hard
 

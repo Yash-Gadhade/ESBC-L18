@@ -17,18 +17,18 @@ contract SortedBallot {
 
     function sortProposals() public {
         uint256 i = 1;
-        uint256 sorted = 0;
+        uint256 swap = 0;
         while (true) {
             Proposal memory prevObj = proposals[i - 1];
             if (uint256(prevObj.name) > uint256(proposals[i].name)) {
                 proposals[i - 1] = proposals[i];
                 proposals[i] = prevObj;
-                sorted++;
+                swap++;
             }
             i++;
             if (i >= proposals.length) {
-                if (sorted == 0) break;
-                sorted = 0;
+                if (swap == 0) break;
+                swap = 0;
                 i = 1;
             }
         }
